@@ -1,0 +1,241 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #111818;
+    font-family: 'Circular', sans-serif;
+    color: white;
+
+}
+
+.top_img{
+
+    width: 100%;
+    height: 600px;
+}
+
+.imgs{
+    width:100%;
+    height: inherit;
+    background-image:url(./ar_rahman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+
+}
+
+.name{
+    position: absolute;
+    top: 498px;
+    left: 20px;
+}
+
+.main-title{
+
+    font-size: 90px;
+    -webkit-text-stroke: 2px black;
+    color: white;
+    text-shadow:
+        3px 3px 0 #000,
+        -2px -2px 0 #000,  
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;
+        font-weight: 800;
+}
+
+.nav{
+
+    width: 500px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    padding: 10px;
+   background: rgba(255, 255, 255, 0);
+   border-radius: 20px;
+   margin-top: 20px;
+
+}
+
+.navitem{
+
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+.navitem a{
+
+    text-decoration: none;
+    color: white;
+    transition: ease 0.5s;
+    font-size: x-large;
+
+}
+
+.navitem a:hover{
+
+   color: rgb(65, 61, 61);
+}
+
+
+.about{
+    z-index: 9;
+    background-color: #111818;
+    padding: 20px;
+    line-height: 30px;
+    font-size: large;
+
+
+}
+
+.about h1{
+
+    text-align: center;
+}
+
+.poem{
+    width: 100%;
+    height: 500px;
+    display:flex ;
+    background-color: #111818;
+
+}
+
+.poem-left{
+
+    height: 490px;
+    width: 20%;
+    background-color: #111818;
+    background-image: url(./images.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px;
+    margin-left: 250px;
+    border-radius: 50%;
+}
+
+
+.poem-left:hover{
+
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.poem-right{
+
+margin-top: 25px;
+    color: white;
+    overflow: hidden;
+    line-height: 30px;
+    font-size: large;
+    text-align: center;
+    margin-left: 250px;
+
+}
+
+.award{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    margin: 10px;
+    background-color: #111818;
+}
+
+
+#award h1{
+    
+    text-align: center;
+    background-color: #111818;
+    font-size: x-large
+   
+}
+
+.row{
+    display: flex;
+  
+}
+
+.box{
+    width: 750px;
+    height: 200px;
+    margin: 10px;
+    border: 2px inset rgb(0, 0, 0);
+    background-size: 100% 200% ;
+    transition: all o.6s;
+  
+    border-radius: 30%;
+    padding: 20px;
+    
+
+
+}
+.box:hover{
+
+    border: 2px solid #f4fbff;
+    transition: border 0.3s ease;
+}
+.box p{
+
+   
+    text-align: justify;
+    margin: 4px;
+    padding: 10px;
+    margin-top: 10px;
+
+
+}
+
+.box h4{
+
+    font-size: larger;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+.songs1{
+
+   
+    width: 100%;
+    height: 850px;
+    display: block;
+    max-height: 300px;
+    overflow-y: scroll;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.songs1 img{
+
+    display: flex;
+    justify-content: center;
+    width: 240px;
+    height: 240px;
+    display: inline;
+    padding: 10px;
+   
+
+}
+
+.songs1 img:hover{
+    transform: rotate(10deg);
+    transition: transform 0.3s ease;
+}
+
+
+
+
